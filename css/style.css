@@ -1,0 +1,303 @@
+@font-face {
+    font-family: system;
+    src: url(../fonts/Assistant-VariableFont_wght.ttf);
+}
+body{
+    margin:0;
+    background-color: #f5f5f5;
+}
+.hero{
+    background-position: center center;
+    background-size: cover;
+}
+.content h2{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 86px;
+    color: rgb(255, 255, 255)
+    ;
+    font-family: system;
+
+}
+#hero h4{
+    color: white;
+}
+#hero h4::after {
+    
+    content: " Designer  |";
+    color: rgb(255, 255, 255);
+    animation: typing 5s ease-in-out infinite alternate;
+    -webkit-animation: typing 3s 1s ease-in-out infinite alternate;
+    display: block;
+  }
+  @keyframes typing {
+    5% {
+      content: " Designer  |";
+    }
+  
+    10% {
+      content: " Designer |";
+    }
+  
+    15% {
+      content: " Designer|";
+    }
+  
+    20% {
+      content: " Designe|";
+    }
+  
+    25% {
+      content: " Design|";
+    }
+  
+    30% {
+      content: " Desig|";
+    }
+  
+    35% {
+      content: " Desi|";
+    }
+  
+    40% {
+      content: " Des|";
+    }
+  
+    45% {
+      content: " De|";
+    }
+  
+    50% {
+      content: " D|";
+    }
+  
+    55% {
+      content: " |";
+    }
+  
+    60% {
+      content: " D|";
+    }
+  
+    65% {
+      content: " De|";
+    }
+  
+    70% {
+      content: " Dev|";
+    }
+  
+    75% {
+      content: " Deve|";
+    }
+  
+    80% {
+      content: " Devel|";
+    }
+  
+    85% {
+      content: " Develo|";
+    }
+  
+    90% {
+      content: " Develop|";
+    }
+  
+    95% {
+      content: " Develope|";
+    }
+  
+    100% {
+      content: " Developer|";
+    }
+  }
+  .nav-link{
+    color: white;
+    text-transform: uppercase;
+  }
+  a.line h5::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    position: relative;
+    top: 30px;
+
+    color: white;
+  }
+  .hov{
+    transition:all 2s ease-in-out;
+    animation-name: text;
+  }
+.hov:hover{
+    h5::before {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: white;
+        display: block;
+        position: relative;
+        top: 30px;
+    
+        color: white;
+        animation-duration: 1s;
+        animation-name: text;
+
+        
+
+      }
+     
+
+}
+@keyframes text {
+    0%{
+        width: 25px;
+    }
+    100%{
+        width: 50px;
+    }
+    
+  }
+.skill li{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    list-style: none;
+    padding-top: 10px;
+    font-family: system;
+    font-weight: 600;
+    color: rgb(30, 30, 30)
+    ;
+    line-height: 26px;
+}
+.skill span{
+    font-family: system;
+    line-height: 24px;
+    color: rgb(78, 78, 78)
+    ;
+}
+.Curabitur h2{
+    font-family: system;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(30, 30, 30)
+    ;
+    line-height: 38px;
+}
+.Curabitur p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(78, 78, 78)
+    ;
+
+}
+.box-shodow-full{
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.card-title h4{
+    margin-top:20px;
+}
+.send{
+    
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: color background-color transform 2s;
+}
+.send i{
+    font-size: 40px;
+
+}
+.send:hover{
+    color: rgba(0, 0, 255, 0.619);
+    background-color: rgba(0, 0, 255, 0.411);
+    transform: scale(0.8);
+
+
+}
+.container h1::after{
+    content: "";
+    background-color: blue;
+    position: relative;
+    width: 50px;
+    height: 3px;
+    top: 40px;
+    display: block;
+    left: 48%;
+
+}
+.counter-item{
+  padding: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#count{
+  background-image:url(../IMAGE/counters-bg.jpg) ;
+  background-position: center center;
+  background-size: cover;
+}
+.layer-blue {
+  background-color: #2273d081;
+  transition: all 5s;
+
+  
+}
+.layer-blue i{
+  font-size: 32px;
+  line-height: 48px;
+
+}
+.box-shadow{
+  box-shadow: 0 0 0 gray;
+}
+#Portfolio img{
+transition: transform 1s;
+width: 100%;
+margin: auto;
+}
+#Portfolio img:hover{
+  transform: scale(1.1);
+}
+#slider{
+  color: white;
+  background-image: url(../IMAGE/overlay-bg\ \(1\).jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.fit{
+  width: fit-content;
+  padding: 0 22px;
+  font-size: small;
+  border: 5px solid transparent;
+  position: relative;
+  
+
+}
+.travel{
+  position: absolute;
+  top: 52%;
+  left: 120px;
+
+}
+.x a{
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.773);
+  transition: color 1s;
+}
+.x a:hover{
+  color: rgba(0, 255, 255, 0.603);
+}
